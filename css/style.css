@@ -1,0 +1,5 @@
+/* Reset CSS*/
+@import "reset.css";
+
+/* Screens */
+@import "screens/index.css";

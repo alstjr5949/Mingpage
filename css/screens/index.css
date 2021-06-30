@@ -1,0 +1,69 @@
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.unsplash.com/photo-1582641857491-7e9987c2e415?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80;);
+  background-size: cover;
+}
+
+.first-page h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#login-form {
+  padding-right: 25px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#login-form .name-input {
+  height: 50px;
+  width: 22vw;
+  background: none;
+  border: none;
+  padding-left: 20px;
+}
+
+.login-btn {
+  margin-left: 10px;
+  color: #747272;
+}
+
+#login-form .name-input:focus {
+  outline: none;
+}
+
+#login-form .name-input::placeholder {
+  text-align: center;
+  font-size: 15px;
+}
+
+.login-btn a {
+  text-decoration: none;
+  color: #747272;
+}
+
+#typing {
+  position: relative;
+  display: inline-block;
+}
+
+#typing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 4px;
+  height: 100%;
+  background-color: black;
+}
+
+#typing.active::after {
+  display: none;
+}
