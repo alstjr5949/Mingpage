@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .first-page {
   display: flex;
   flex-direction: column;
@@ -23,7 +27,7 @@
 
 #login-form .name-input {
   height: 50px;
-  width: 22vw;
+  width: 15vw;
   background: none;
   border: none;
   padding-left: 20px;
