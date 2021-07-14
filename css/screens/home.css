@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
   font-size: 60px;
+  text-shadow: 1px 1px 2px grey;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
 }
