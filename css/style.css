@@ -4,3 +4,6 @@
 /* Screens */
 @import "screens/index.css";
 @import "screens/home.css";
+
+/* Components */
+@import "components/nav-bar.css";
